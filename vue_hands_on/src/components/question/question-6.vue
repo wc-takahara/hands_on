@@ -1,8 +1,8 @@
 <template>
     <div>
-        <label><input type="checkbox" value="A"> A</label>
-        <label><input type="checkbox" value="B"> B</label>
-        <label><input type="checkbox" value="C"> C</label>
+        <label><input type="checkbox" value="A" v-model="val">A</label>
+        <label><input type="checkbox" value="B" v-model="val">B</label>
+        <label><input type="checkbox" value="C" v-model="val">C</label>
         <p>{{ val }}</p>
     </div>
 </template>
