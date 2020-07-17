@@ -5,7 +5,7 @@
 export default {
   methods:{
     buttonAlert: function(){
-      alert('クリックしたよ');
+      alert('押したよ');
     }
   }
 }

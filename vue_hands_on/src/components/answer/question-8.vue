@@ -19,7 +19,6 @@ export default {
   },
   methods: {
     deleteList: function(index) {
-      console.log(index)
       this.list.splice(index, 1);
     }
   }

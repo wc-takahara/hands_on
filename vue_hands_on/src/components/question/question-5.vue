@@ -1,4 +1,12 @@
 <template>
+  <!--
+    【問題】
+    v-bindとv-onでv-modelを再現してください
+
+    使うVueの記法　v-bind　v-on
+  　使う関数名　関数使わない
+　　ヒント　input要素で入力した値を取得するには  $event.target.value でできます。
+   -->
     <div>
         <div>
             <input type="text" v-model="message">
