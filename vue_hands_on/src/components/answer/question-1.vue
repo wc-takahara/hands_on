@@ -1,5 +1,5 @@
 <template>
-  <button v-on:click="buttonAlert">クリック</button>
+  <button v-on:click="buttonAlert">押してね</button>
 </template>
 <script>
 export default {
