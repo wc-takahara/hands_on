@@ -1,7 +1,7 @@
 <template>
   <div>
     <button v-on:click="countUp">カウントアップするよ！</button>
-    <div class="lead" v-if="count%2">count:{{count}}</div>
+    <div class="lead" v-if="count%2 !== 0">count:{{count}}</div>
   </div>
 </template>
 <script>
